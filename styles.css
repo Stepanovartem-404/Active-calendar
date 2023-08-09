@@ -1,0 +1,29 @@
+#calendar-wrap {
+    background-color: #F5F5F5;
+}
+
+#calendar th {
+    background-color: #DDD;
+}
+
+#calendar td {
+    padding: 5px;
+    text-align: center;
+}
+
+#calendar td.inactive {
+    color: #AAA;
+}
+
+/* Новые стили */
+#calendar-wrap {
+    background-color: #f9e8e8;
+}
+
+#calendar td.inactive {
+    color: red;
+}
+
+#calendar td:not(.inactive):hover {
+    background-color: #a4f4a4;
+}
